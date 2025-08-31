@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 data = pd.read_csv("data.csv") 
 data.head()
 
-data.info()
+data.info() 
  
 # Removing unwanted data to increase performance speed 
 data.drop(['Unnamed: 32', 'id'], axis=1, inplace=True)
