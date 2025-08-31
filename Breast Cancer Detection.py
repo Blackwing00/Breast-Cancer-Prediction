@@ -4,7 +4,7 @@ import numpy as np
 # data processing
 import pandas as pd
 
-# visualisation
+# visualisation 
 import matplotlib.pyplot as plt
 
 data = pd.read_csv("data.csv")
