@@ -6,7 +6,7 @@ import pandas as pd
 
 # visualisation 
 import matplotlib.pyplot as plt 
- 
+  
 data = pd.read_csv("data.csv") 
 data.head()
 
