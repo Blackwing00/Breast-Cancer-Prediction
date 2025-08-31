@@ -66,7 +66,7 @@ def update(w, b, X_train, y_train, learning_rate, num_iterations):
     cost_list = []
     cost_list2 = []
     index = []
-
+  
     # Updating (learning) parameters for num_iterations times
     for i in range(num_iterations):
         # Forward and backward propagation to find cost and gradients
