@@ -12,7 +12,7 @@ data.head()
 
 data.info()
 
-# Removing unwanted data to increase performance speed
+# Removing unwanted data to increase performance speed 
 data.drop(['Unnamed: 32', 'id'], axis=1, inplace=True)
 
 # Convert diagnosis to binary (1 for 'M', 0 for 'B')
